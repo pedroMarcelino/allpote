@@ -1,0 +1,64 @@
+.containerLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+}
+
+.box{
+    box-shadow: 5px 5px 35px #c7c7c7;
+    padding: 68px;
+    border-radius: 18px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.box h2{
+    font-size: 48px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+.form{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column ;
+}
+
+.form input{
+    border: 0;
+    margin-bottom: 8px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 35px #c7c7c7;
+    background-color: #f0efef;
+}
+
+.form button{ 
+    margin-top: 18px;
+    font-size: 22px;
+    height: 45px;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: 0;
+    background-color: #47C447;
+    color: #eee;
+}
+
+.form button:hover{
+    background-color: #eee;
+    border: 3.5px solid #47C447;
+    color: #47C447;
+    transition: 450ms;
+}
+
+.spantLogin{
+    text-align: center;
+    margin-top: 18px;
+    text-decoration: none;
+    color: #019de0;
+}
